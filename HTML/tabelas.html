@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Tabelas</h2>
+    <table ; border="3">
+        
+        <!--Mostrar quantas linhas vai ter-->
+        <tr>
+            <!--Mostrar as colunas(os nomes)-->
+            <td><strong>RA</strong></td> 
+            <td>Nome do aluno</td>
+            <td>Idade</td>
+        </tr>
+        <tr>
+            <!--Mostra o que vai ter em casa coluna-->
+            <td>0000854</td>
+            <td>Arthur de Amorim</td>
+            <td>16</td>
+        </tr>
+        <tr>  <!--Sempre colocar o <tr></tr> para colocar mai dados em cada coluna-->
+            <!--mostra as informações em cada coluna-->
+            <td>0000855</td>
+            <td>vitoria</td>
+            <td>17</td>
+        </tr>
+    </table>
+    <hr>
+    
+    <h2>Tabela Organizada</h2>
+    <table ; border="2">
+        <thead>
+            <tr>
+                <td>Codigo</td>
+                <td>Produto</td>
+                <td>Valor</td>
+                <td>Vendas</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>001</td>
+                <td>noteboock</td>
+                <td>R$6.000,00</td>
+                <!--Oculpar uma linha inteira-->
+                <td rowspan="2">Gamer</td>
+            </tr>
+            <tr>
+                <td>002</td>
+                <td>cadeira</td>
+                <td>R$1.000,00</td>
+            </tr>
+
+        </tbody>
+        <tfoot>
+            <!--O colspan faz a coluna total oculpar duas colunas ou 3, quantas quises-->
+            <td colspan="2">Total</td>
+            <td>R$7.000,00</td>
+        </tfoot>
+    </table>
+
+
+
+
+
+    </table>
+</body>
+</html>
