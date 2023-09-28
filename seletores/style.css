@@ -1,0 +1,23 @@
+#textoDoSite{
+    color: red;
+    font-size: 20px;
+}
+#textoDaArea1{
+    color: blue;
+    font-size: 20px;
+}
+#textoDaArea2{
+    color: green;
+    font-size: 20px;
+}
+#textoDaArea3{
+    color: rgb(0, 217, 255);
+    font-size: 20px;
+}
+.subititulo {
+    color: rgb(255, 142, 85);
+    background: rgb(4, 106, 118);
+}
+strong{
+    color: black;
+}
