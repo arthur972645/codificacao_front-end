@@ -9,16 +9,26 @@
 <body>
     <form>
         <label for="text">Nome: </label> <br>
-        <input type="text" > <br>
-        <label for="">Sobrenome: </label> <br>
-        <input type="text" > <br>
-        <label for="email">email:</label> <br>
-        <!--Meio que funciona como validação, so vai enviar se tal campo for preenchido-->
-        <input type="email" id="email" placeholder = "@seuemail.com" required> <br>
-        <label for="">Idade: </label> <br>
-        <input type="number"> <br>
+        <!--O required serve parados aceitar se tiver algo nesse campo-->
+        <input type="text" required > <br>
         
-        <input type="radio"> <input type="submit"> <br>
+        <label for="">Sobrenome: </label> <br>
+        <input type="text" required > <br>
+        
+        <label for="email">email: </label> <br>
+        <!--placeholder="" Colocar um exemplo pro usuario seguir, caso não esteja igual aparece um alert pro usuario-->
+        <input type="email" id="email" placeholder="@gmail.com" required> <br>
+        <textarea name="email" id="email" cols="30" rows="5"></textarea> <br>
+        <label for="">Idade: </label> <br>
+        <input type="number" required> <br>
+        
+        <input type="radio"> <input type="submit" value="Cadastra"> <br>
+        <hr>
+        <h7>Escolha seu suco favorito</h7> <br>
+        <input type="radio"> <label for="text">Manga</label> <br>
+        <input type="radio"> <label for="text">Uva</label> <br>
+        <input type="radio"> <label for="text">Limão</label> <br>
+
         
     
     </form>
