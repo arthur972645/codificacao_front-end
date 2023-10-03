@@ -1,0 +1,23 @@
+/* O border serve pra vc criar tipo umas caixar, um contorno em uma area
+div{ 
+    border: 2px solid black;
+}
+span{
+    color: red;
+    font-size: 20px;
+    border: 2px solid blue;
+} */
+
+.navbar{
+    background-color: aquamarine; /*cor de fundo */
+    height: 150px; /*representa altura */
+    border: 2px solid black;
+}
+.container{
+    background-color: rgb(255, 127, 127);
+    height: 500px;
+}
+.footer{
+    background-color: blueviolet;
+    height: 150px;
+}

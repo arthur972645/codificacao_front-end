@@ -1,0 +1,22 @@
+.box1{
+    width: 200px;
+    height: 200px;
+/* RGB */
+    background-color:rgb(46, 139, 87); 
+    background-color: rgb(20%, 200%, 22%);/*pode ser usada em porcentagem tbm*/
+    
+}
+.box2{
+    width: 200px;
+    height: 200px;
+/* HEXADECIMA */
+    /* Aqui é quando por exemplo a gente tem o codigo da cores, ai  a gente usa   o hexadecimal */
+    background-color: #00CED1 ;
+    /* Os primeiros simbolos repesenta o vermelho, a do meio o verde e as duas ultimas azul */
+}
+.box3{
+    width: 200px;
+    height: 200px;
+/* HSL */
+    background-color: #39981aaa;
+}
