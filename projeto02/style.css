@@ -1,0 +1,50 @@
+body{
+    background-color: black;
+}
+
+.home{
+    background-color: grey;
+    color:white
+}
+
+.title{
+    color:white
+}
+
+.paragrafo_1{
+    color:white
+}
+
+.paragrafo_2{
+    color: white;
+}
+
+.paragrafo_3{
+    color:white
+}
+
+.box1{
+    height: 380px;
+    background-repeat: no-repeat;
+    background-image: url("./img/capa.jpg");
+    background-position: center;
+}
+
+.box2{
+    height: 50px;
+    background-color: slategray;
+}
+
+a{
+    color:white;
+    margin-right: 25px;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.paragrafo_4{
+    color:white;
+    text-align: center;
+    
+    
+}

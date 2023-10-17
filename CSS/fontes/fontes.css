@@ -1,0 +1,40 @@
+.paragrafo_1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 40px;
+    text-decoration: underline;
+    text-align: end;
+}
+.paragrafo_2{
+    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique;
+    font-weight: 900;
+    font-size: 40px;
+    text-decoration: overline;
+    text-align: center;
+}
+
+.paragrafo_3{
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 100;
+    text-decoration: line-through;
+    text-align: start;
+}
+
+div{
+    font-size: 16px;
+}
+
+.paragrafo_4{
+    font-size: 10rem;
+}
+
+.teste{
+    font-size: 10rem;
+}
+
+a{
+    text-decoration: none;
+}
+

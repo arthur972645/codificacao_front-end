@@ -1,0 +1,25 @@
+body{
+    background-color: aquamarine;
+}
+
+div{
+    height: 300px;
+    border: 1px solid black;
+}
+
+.box1{
+    background-color: beige;
+}
+
+.box2{
+    background-image: url("https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2020&q=80");
+}
+
+.box3{
+    background-image: url("./images.png");
+    background-repeat: no-repeat;
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+    background-repeat: round;
+    background-repeat: space;
+}
