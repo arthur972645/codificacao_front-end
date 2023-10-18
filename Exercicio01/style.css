@@ -1,0 +1,84 @@
+body{
+    background-color: hsl(30, 38%, 92%);
+    margin: 0;
+    /*display: flex; 
+    justify-content: center;
+    align-items: center;
+    height: 100vh;*/
+
+}
+.caixa-principal{
+    width: 700px;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 14px;
+    /* margin-top: 500px;  move a caixa para cima ou para baixo, no centro ou para os lados, varias possibilidades */
+    margin-top: 160px;
+    margin-left: 550px;
+}
+.caixa-perfume{
+    letter-spacing: 10px;
+    font-family: Fraunces, sans-serif;
+    font-size: 14px;
+    padding-top: 50px;
+    padding-left: 350px;
+}
+.texto-principal{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    width: 350px;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-left: 350px;
+}
+.texto-secundario{
+    font-family: Montserrat, sans-serif;
+    font-size: 15px;
+    color: hsl(0, 0%, 65%);
+    line-height: 25px;
+    width: 300px;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-left: 350px;
+}
+.preco-atual{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: hsl(158, 36%, 37%);
+    padding-top: 10px;
+    padding-left: 350px;
+}
+.preco-antigo{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: hsl(0, 0%, 65%);
+    padding-left: 500px;
+    position: relative;
+    bottom: 32px;
+}
+.caixa-compra{
+    font-family: Montserrat, sans-serif;;
+    font-size: 15px;
+    background-color: hsl(158, 36%, 37%) ;
+    border-radius: 10px;
+    height: 50px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-left: 380px;
+}
+.imagem-carrinho{
+    padding-left: 420px;
+    position: relative;
+    bottom: 35px;
+}
+.imagem-pruduto img{
+    position: relative;
+    bottom: 448px;
+    border-top-left-radius:14px;
+    border-bottom-left-radius:14px;
+}
