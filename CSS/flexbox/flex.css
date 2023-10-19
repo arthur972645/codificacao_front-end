@@ -1,0 +1,47 @@
+/* Toda caixa que vai conte outrAS caixas são caixar pais
+e por isso colocar o display: flex na caixa pai*/ 
+
+.container{
+    height: 700px;
+    max-width: 700px;
+    margin: 0 auto;
+    display: flex; 
+    /*Horizontal eixo X, Verticial eixo Y*/
+    flex-direction: row-reverse; /*permite modificar a direção*/
+    /*Horizontal eixo Y, Vertical eixo X*/
+    flex-direction: column-reverse;
+    flex-direction: row;
+    /*EIXO X*/
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-content: space-evenly;
+    justify-content: flex-start;
+
+    /*EIXO Y*/
+
+    align-items: flex-end;
+    align-items: flex-start;
+    /* align-items: stretch; */
+
+    flex-wrap: wrap;
+    gap: 15px;
+}
+div{
+    border: 1px solid black;
+}
+.box1, .box2, .box3, .box4, .box5, .box6{
+    width: 150px;
+    /* height: 150px; */
+    background-color: chocolate;
+    font-size: 20px;
+    text-align: center; /*deixa o texto no centro*/
+    
+}
+.box1{
+    flex-grow: 2;
+    flex-shrink: 2;
+}
+.box2, .box4, .box6{
+    align-self: flex-end;
+}

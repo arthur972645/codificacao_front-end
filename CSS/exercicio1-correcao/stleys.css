@@ -1,0 +1,12 @@
+body{
+    background-color: hsl(30, 38%, 92%); 
+}
+.container{
+    height: 500px;
+    max-width: 700px;
+    background-color: white;
+    margin: 250px auto;
+    display: flex; 
+    border-radius: 15px;
+    
+}

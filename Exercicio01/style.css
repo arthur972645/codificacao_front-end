@@ -85,7 +85,8 @@ body{
 }
 .imagem-pruduto img{
     position: relative;
-    bottom: 448px;
+    bottom: 438px;
     border-top-left-radius:14px;
     border-bottom-left-radius:14px;
+    
 }
