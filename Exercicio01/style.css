@@ -8,7 +8,7 @@ body{
 
 }
 .caixa-principal{
-    width: 700px;
+    width: 680px;
     height: 500px;
     background-color: rgb(255, 255, 255);
     border-radius: 14px;
@@ -46,35 +46,42 @@ body{
     font-size: 40px;
     font-weight: bold;
     color: hsl(158, 36%, 37%);
-    padding-top: 10px;
-    padding-left: 350px;
+    position: relative; 
+    top: 15px;
+    left: 350px;
+    
 }
 .preco-antigo{
     font-family: 'Times New Roman', Times, serif;
     font-size: 15px;
     font-weight: bold;
     color: hsl(0, 0%, 65%);
-    padding-left: 500px;
     position: relative;
-    bottom: 32px;
+    bottom: 15px;
+    left: 500px;
+    
 }
 .caixa-compra{
     font-family: Montserrat, sans-serif;;
     font-size: 15px;
     background-color: hsl(158, 36%, 37%) ;
-    border-radius: 10px;
+    border-radius: 5px;
     height: 50px;
-    width: 250px;
+    width: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
-    margin-left: 380px;
+    position: relative;
+    left: 350px;
+    top: 15px;
+    
 }
 .imagem-carrinho{
     padding-left: 420px;
     position: relative;
-    bottom: 35px;
+    bottom: 20px;
+    
 }
 .imagem-pruduto img{
     position: relative;
