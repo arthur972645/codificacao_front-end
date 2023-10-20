@@ -1,0 +1,40 @@
+body{
+    background-image: url(./img/islandia-1.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.box-opaca{
+    width:  700px;
+    height: 845px;
+    backdrop-filter: blur(20px);
+    color: white;
+    border-top-right-radius: 15px;
+}
+.box-titulo-secundario{
+    margin-top: 500px;
+    display: flex;
+    justify-content: center;
+}
+.titulo-secundario{
+    font-family: Kanit, sans-serif;
+    letter-spacing: 10px;
+    font-size: 30px;
+}
+.box-texto1{
+    width: 300px;
+    position: relative;
+    left: 200px;
+    bottom: 30px;
+    
+    
+}
+.texto1{
+    font-family: Kanit, sans-serif;
+    font-size: 15px;
+    letter-spacing: 3px;
+    color: rgba(212, 212, 212, 0.582);
+    font-size: 15px;
+}
