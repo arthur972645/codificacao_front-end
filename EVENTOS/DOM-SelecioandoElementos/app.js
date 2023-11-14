@@ -1,0 +1,7 @@
+console.log(document.getElementById("Usuario"))
+console.log(document.getElementsByTagName("input"))
+console.log(document.getElementsByClassName("campo-texto"))
+console.log(document.getElementsByName("nome"))
+console.log(document.querySelector('#usuario'))
+console.log(document.querySelector('.campo-texto'))
+console.log(document.querySelector('[data-personalizada]'))
