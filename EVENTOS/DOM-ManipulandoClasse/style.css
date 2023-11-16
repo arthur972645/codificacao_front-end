@@ -1,0 +1,12 @@
+.estilo01{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    color: aliceblue;
+}
+.estilo02{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(85, 255, 0);
+    color: aliceblue;
+}

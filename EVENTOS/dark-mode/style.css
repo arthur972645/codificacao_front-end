@@ -1,0 +1,9 @@
+
+
+body{
+    transition: background-color 3s
+}
+.dark-mode{
+    background-color: #000;
+    color: #fff;
+}

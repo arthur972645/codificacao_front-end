@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=1, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2> Calculando Peso Ideal </h2>
+    <p>
+        Nome:
+        <input type="text" id="inNome">
+    </p>
+    <p>
+        Sexo:
+        <input id="rbMasculino" type="radio" name="sexo"><span>Masculino</span>
+        <input id="rbFeminino" type="radio" name="sexo"><span>Feminino</span>
+    </p>
+    <p>
+        Altura:
+        <input id="inAltura" type="text" placeholder="1.80">
+    </p>
+    <p>
+        <button type="button" id="btnCalculando">Calcular peso ideal</button>
+        <button type="button" id="btnLimpar">Limpar campo</button>
+    </p>
+    <h3 id="outResposta"></h3>
+
+    <script src="./app.js"></script>
+    
+</body>
+</html>
