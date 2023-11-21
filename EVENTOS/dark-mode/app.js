@@ -1,4 +1,3 @@
-
 function darkMode (){
     const pagina = document.body
 

@@ -1,0 +1,36 @@
+section{
+    max-width: 500px;
+    margin: 350px auto;
+    background-color: brown;
+    border-radius: 30px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    color: white;
+}
+h1{
+    text-align: center;
+}
+
+input{
+    margin: 5px 0;
+}
+button{
+    border-radius: 10px;
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 25px ;
+    font-size: 20px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+button:hover{
+    /*mouse sobrepor o link*/
+    background-color: rgb(0, 0, 0);
+    color: white;
+    transition: 0.2s;
+}

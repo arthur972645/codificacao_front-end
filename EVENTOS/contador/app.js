@@ -17,17 +17,23 @@ btns.forEach(function(btn){
             count++;
         }
         value.textContent = count
-        
+
         //mudar a cor do número quando positivo,  negativo e 0
         if(count >= 1){
-            document.getElementById('value').style.color = 'hsl(125, 67%, 44%)'
+            value.style.color = 'hsl(125, 67%, 44%)'
         }
         if(count == 0 ){
-            document.getElementById('value').style.color = 'hsl(209, 61%, 16%)'
+            value.style.color = 'hsl(209, 61%, 16%)'
         }
         if(count < 0){
-            document.getElementById('value').style.color = 'hsl(360, 67%, 44%)'
+            value.style.color = 'hsl(360, 67%, 44%)'
         }
+        if(count > 5 ){
+            value.className = 'gradiente'
+        }else{
+            value.className =''
+        }
+        
         
     })
 
